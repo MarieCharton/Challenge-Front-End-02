@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(css/reset.css);
+@import url(libs/reset.css);
 /*Responsive*/
 /*Colors*/
 /*Font-size*/
@@ -38,7 +38,7 @@ body {
   .up-container .stars {
     background-color: #f7f2f7;
     width: 50%;
-    height: 15%;
+    height: 6vh;
     border-radius: 10px;
     display: flex;
     margin-top: 10px; }
@@ -56,8 +56,35 @@ body {
 
 /*Partie inférieure*/
 .low-container {
-  background-color: blue;
   height: 50vh;
-  display: flex; }
+  display: flex;
+  color: white;
+  justify-content: center; }
+  .low-container .presentation {
+    background-color: #502050;
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px; }
+  .low-container .element-2 {
+    margin-top: 2%; }
+  .low-container .element-3 {
+    margin-top: 3%; }
+  .low-container .name {
+    width: 70%; }
+    .low-container .name .verified {
+      color: #ee68a4;
+      margin-top: -18px; }
+  .low-container .identity {
+    padding: 10px;
+    display: flex; }
+    .low-container .identity .round-prensentation-picture {
+      margin: auto;
+      width: 50px;
+      height: 50px;
+      clip-path: ellipse(50% 50%); }
+  .low-container .comment {
+    width: 90%;
+    margin: auto; }
 
 /*# sourceMappingURL=style.css.map */

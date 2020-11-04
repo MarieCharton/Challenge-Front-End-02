@@ -1,4 +1,4 @@
-@import "css/reset.css";
+@import "libs/reset.css";
 /*Responsive*/
 // - Mobile: 375px
 // - Desktop: 1440px
@@ -61,7 +61,7 @@ body{
     .stars{
         background-color: $light-magenta;
         width: 50%;
-        height: 15%;
+        height: 6vh;
         border-radius: 10px;
         display: flex;
         margin-top: 10px;
@@ -89,7 +89,43 @@ body{
 
 /*Partie inférieure*/
 .low-container{
-    background-color: blue;
     height: 50vh;
     display: flex;
+    color: white;
+    justify-content: center;
+
+    .presentation{
+        background-color:$violet;
+        width: 20%;
+        height: 300px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .element-2{
+        margin-top: 2%;
+    }
+    .element-3{
+        margin-top: 3%;
+    }
+    .name{
+        width: 70%;
+        .verified{
+            color: $pink;
+            margin-top: -18px;
+        }
+    }
+    .identity{
+        padding: 10px;
+        display: flex;
+        .round-prensentation-picture{
+            margin: auto;
+            width:50px;
+            height: 50px;
+            clip-path:ellipse(50% 50%);
+        }
+    }
+    .comment{
+        width: 90%;
+        margin: auto;
+    }
 }

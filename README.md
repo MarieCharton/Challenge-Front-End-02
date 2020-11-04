@@ -6,11 +6,11 @@ Reproduire la page en Desktop et mobile
 <center>
 Version Desktop 
 
-<img src="design/desktop-design.jpg"/>
+<img src="public/design/desktop-design.jpg"/>
 
 Version Mobile 
 
-<img src="design/mobile-design.jpg"/>
+<img src="public/design/mobile-design.jpg"/>
 </center>
 
 
